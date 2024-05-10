@@ -1,0 +1,1141 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 26px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.container-content {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-line {
+       border: 1px solid  #F54932;
+    background-color: #F54932;
+    margin-bottom: 70px;
+}
+
+.container-stages {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.participants-container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header img {
+    width: 245px; /* Подставьте нужную ширину для вашего логотипа */
+    height: 36px; /* Это позволит изображению сохранять пропорции */
+}
+
+.text {
+    padding-top: 62px;
+    padding-bottom: 94px;
+}
+
+.slogan {
+    max-width: 542px;
+    height: auto;
+}
+.text h2 {
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #313131;
+    line-height: 66px;
+}
+
+.center {
+    text-align: center;
+}
+
+.slogan  p{
+    font-family: Golos Text;
+font-size: 18px;
+font-weight: 400;
+line-height: 23.4px;
+text-align: center;
+
+}
+
+.image img {
+    float: right;
+    width: 50%;
+    display: none;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.buttons a {
+    width: 263px;
+    height: auto;
+    padding: 20px;
+    gap: 0px;
+    border-radius: 66px;
+    border: 2px solid #1F1F1F;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    align-items: center;
+        text-decoration: none;
+
+    transition: 0.3s linear;
+}
+
+.buttons  a.default {
+    background-color: #1F1F1F;
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+.buttons  a.default:hover {
+    border: 2px solid #FBCE51;
+    background-color: #FBCE51;
+    color: #1F1F1F;
+}
+
+.buttons a p {
+    font-family: Golos Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: center;
+    max-width: 165px;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    background-image: url('assets/img/back.png');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-color: #E9DED4;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 870px) {
+    .content {
+        background-image: url('assets/img/mobile_back.jpg');
+        background-size: cover;
+        width: 100%;
+    }
+    .buttons a {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        border: 2px solid #FFFFFF;
+        opacity: 90;
+        background-color: #FFFFFF;
+        display: block;
+    }
+    .buttons  a.default {
+        border: 2px solid #1F1F1F;
+    }
+    .buttons  a:hover {
+        border: 2px solid #FBCE51;
+        background-color: #FBCE51;
+        color: #1F1F1F;
+    }
+    .buttons a p{
+        font-size: 25px;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .header img {
+        width: 400px; /* Подставьте нужную ширину для вашего логотипа */
+        height: auto; /* Это позволит изображению сохранять пропорции */
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slogan {
+        max-width: 90%;
+        padding: 80px 0;
+    }
+    .slogan  p{
+        font-size: 30px;
+    }
+    .text h2 {
+        font-size: 70px;
+    }
+    .buttons {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 745px) {
+    .slogan  p{
+        font-size: 25px;
+    }
+    .text h2 {
+        font-size: 50px;
+    }
+    .buttons a p{
+        font-size: 22px;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .slogan {
+        max-width: 90%;
+        padding: 10px 0;
+    }
+    .buttons a p{
+        font-size: 22px;
+        max-width: 80%;
+    }
+    .text {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .text h2 {
+        font-size: 45px;
+    }
+    .slogan  p{
+        font-size: 20px;
+    }
+    .buttons a p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .text h2 {
+        font-size: 40px;
+    }
+
+    .text {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 473px) {
+    .buttons a p{
+        font-size: 16px;
+        max-width: 100%;
+    }
+    .header img {
+    width: 253px; /* Подставьте нужную ширину для вашего логотипа */
+    height: auto; /* Это позволит изображению сохранять пропорции */
+}
+    .text h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .slogan  p{
+        font-size: 18px;
+    }
+    .text {
+        padding-top: 10px;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .content {
+        width: 100%;
+        height: auto;
+    }
+    .text {
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .text h2 {
+        font-size: 30px;
+    }
+    .slogan  p{
+        font-size: 16px;
+    }
+    .buttons a p{
+        font-size: 14px;
+    }
+}
+
+.running_line { /* Ширина контейнера */
+    overflow: hidden; /* Скрывает текст, который выходит за пределы контейнера */
+    white-space: nowrap; /* Предотвращает перенос текста на следующую строку */
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #fff;
+    padding: 10px;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.text-run {
+    animation: marquee 20s linear infinite;
+        display: block;
+        padding-right: 100%;
+}
+
+.text-run .circle {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: white;
+        margin-left: 5px;
+    }
+
+@keyframes marquee {
+    0% { transform: translateX(0%); } /* Начальная позиция */
+    100% { transform: translateX(-100%); } /* Конечная позиция */
+}
+.support {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.support-top {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 64px;
+}
+
+.support-bottom {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.support-text {
+    flex: 1;
+    padding: 0 20px;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48.6px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.support-text p {
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.support-text a {
+    font-family: Golos Text;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    color: #3057A2;
+    text-transform: none;
+    transition: 0.3s linear;
+}
+
+.support-text a:hover {
+    color: #3f72d6;
+}
+
+.support-text span {
+    color: #F54932;
+}
+
+.support-top .support-image img {
+    width: 394px;
+    height: 250px;
+    border-radius: 87.31px;
+}
+
+.support-bottom .support-image img {
+    width: 474px;
+    height: auto;
+}
+
+.support-text table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 48px;
+}
+
+.support-text td, .support-text th {
+    padding: 8px;
+    font-family: Golos Text;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #313131;
+    text-transform: none;
+}
+
+/* Убираем внешние границы у всех ячеек таблицы */
+.support-text td, .support-text th {
+    border: none;
+}
+
+/* Добавляем внутренние границы у ячеек таблицы, кроме крайних столбцов */
+.support-text td:not(:last-child), .support-text th:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+/* Добавляем внутренние границы у всех строк, кроме последней */
+.support-text tr:not(:last-child) td,
+.support-text tr:not(:last-child) th {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Стилизация текста в ячейках */
+.support-text td:nth-child(odd) {
+    opacity: 0.7;
+}
+
+.support-text td:nth-child(even) {
+    font-weight: 600;/* Черный цвет для текста в правой колонке */
+}
+
+.mobile_support-text {
+    display: none;
+    flex: 1;
+    padding: 0 20px;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48.6px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.mobile_support-text p {
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.mobile_support-text span {
+    color: #F54932;
+}
+
+@media screen and (max-width: 1024px) {
+    .support-top {
+        flex-direction: column; /* Переключение на вертикальное расположение элементов */
+        align-items: center; /* Центрирование элементов по горизонтали */
+        text-align: center; /* Центрирование текста */
+        margin-bottom: 0;
+    }
+
+    .support-text {
+        text-align: center;
+    }
+
+    .support-top .support-image {
+        margin-left: 0; /* Удаление отступа между текстом и изображением */
+        margin-top: 20px; /* Добавление отступа сверху */
+    }
+
+    .support-top .support-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .support-bottom {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .support-bottom .support-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .support-bottom .support-text p {
+        display: none;
+    }
+
+    .mobile_support-text{
+        display: block;
+    }
+
+    .support-text td, .support-text th {
+        font-size: 25px;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .support-text {
+        font-size: 28px;
+    }
+    .support-top .support-image img {
+        width: 80%;
+        height: auto;
+    }
+    .mobile_support-text{
+        font-size: 28px;
+    }
+    .support-text td, .support-text th {
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mobile_support-text p {
+        font-size: 28px;
+    }
+    .support-text {
+        padding: 0;
+    }
+
+    .mobile_support-text {
+        padding: 0;
+    }
+
+    .support-top {
+        padding: 0;
+        padding-top: 40px;
+    }
+
+    .support-bottom {
+        padding: 0;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mobile_support-text p {
+        font-size: 24px;
+    }
+
+    .support-text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    .support-text tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .support-text td:not(:last-child), .support-text th:not(:last-child) {
+        border-right: 0px solid #ddd;
+        }
+    .support-text tr td {
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+.container-stages h2 {
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64.8px;
+    text-align: left;
+    position: relative;
+    text-transform: uppercase;
+    }
+.container-stages h2::after {
+    content: '\A Будущие источники \A обогащения васюкинцев';
+    font-family: Golos Text;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #3057A2;
+    white-space: pre;
+    position: absolute;
+    top: 40px;
+    right: auto;
+    padding: 10px;
+}
+
+.pre-line {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+        .container-stages h2::after {
+            display: none;
+        }
+        .pre-line {
+            display: block;
+            font-family: Golos Text;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #3057A2;
+            white-space: pre;
+            position: absolute;
+            bottom: -70px;
+            right: auto;
+            text-transform: none;
+        }
+}
+
+@media screen and (max-width: 745px) {
+    .container-stages h2 {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+
+    .container-stages h2{
+        line-height: 40px;
+    }
+}
+.card {
+    background-image: url(assets/img/card_back.png); /* Розовый фон карточек */
+    display: flex;
+    align-items: center;
+    height: auto;
+        position: relative;
+}
+
+.card__long {
+    background-image: url(assets/img/card_back.png); /* Розовый фон карточек */
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.number {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white; /* Белый цвет круга */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+.stages_text {
+    padding: 20px;
+    padding-left: 0;
+    font-family: Golos Text;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.stages_text--over {
+    max-width: 456px;
+}
+
+.card img {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 320px;
+    height: auto;
+}
+
+.transformation-stages {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto; /* Автоматический размер строк */
+    grid-gap: 20px; /* Расстояние между карточками */
+}
+.card:nth-child(1),
+.card:nth-child(2) {
+    grid-column: span 1;
+}
+
+.card:nth-child(3) {
+    grid-row: span 2;
+}
+
+.card:nth-child(4),
+.card:nth-child(5) {
+    grid-column: span 1;
+}
+.card:nth-child(6) {
+    grid-column: span 1;
+}
+.card:nth-child(7) {
+    grid-column: span 2;
+}
+
+.transformation-stages-mobile-slider {
+    display: none;
+}
+
+.transformation-stages-mobile-slider img {
+    display: none;
+    position: absolute;
+    top: -220px;
+    right: auto;
+    width: 500px;
+    height: auto;
+    z-index: 99999;
+}
+
+.navigation-mobile {
+    display: none;
+}
+
+.nav_page-mobile {
+    display: flex;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+    .card:nth-child(1),
+    .card:nth-child(3) {
+        grid-column: span 1; /* Первая, третья и пятая карточки занимают один столбец */
+    }
+
+    .card:nth-child(2),
+    .card:nth-child(4),
+    .card:nth-child(5) {
+        grid-column: span 2; /* Вторая, четвертая и шестая карточки занимают два столбца */
+    }
+
+    .card:nth-child(7),
+    .card:nth-child(6) {
+        grid-column: span 3; /* Седьмая карточка занимает все три столбца */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .transformation-stages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto; /* Автоматический размер строк */
+        grid-gap: 20px; /* Расстояние между карточками */
+    }
+
+    .container-line {
+        margin-bottom: 5px;
+    }
+
+    .card:nth-child(1),
+    .card:nth-child(2),
+    .card:nth-child(4),
+    .card:nth-child(5) {
+        grid-column: span 1; /* Первая, третья и пятая карточки занимают один столбец */
+    }
+
+    .card:nth-child(3),
+    .card:nth-child(7),
+    .card:nth-child(6) {
+        grid-column: span 2; /* Вторая, четвертая и шестая карточки занимают два столбца */
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+
+    .transformation-stages {
+        display: none;
+    }
+
+    .container-stages h2 {
+        margin-bottom: 250px;
+    }
+
+    .transformation-stages-mobile-slider {
+        display: grid;
+       grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1; /* Автоматический размер строк */
+        grid-gap: 20px;
+    }
+
+    .card {
+        padding: 50px;
+    }
+
+    .card:nth-child(1),
+    .card:nth-child(2),
+    .card:nth-child(3),
+    .card:nth-child(4),
+    .card:nth-child(5),
+    .card:nth-child(6),
+    .card:nth-child(7) {
+        grid-column: span 3;
+         grid-row: span 3;
+    }
+
+    .transformation-stages-mobile-slider img {
+        display: inline-block;
+    }
+
+    .navigation-mobile {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.participants-container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.navigation h2 {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64.8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.participants-navigation-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .participants-container .navigation .nav_page {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .navigation h2 {
+        font-size: 40px;
+    }
+
+    .participants-container .navigation{
+        display: none;
+    }
+
+    .participants-navigation-mobile {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .transformation-stages-mobile-slider img {
+        width: 350px;
+        top: -150px;
+    }
+    .container-stages h2 {
+        margin-bottom: 130px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-stages h2 {
+        margin-bottom: 180px;
+    }
+    .transformation-stages-mobile-slider img {
+        width: 350px;
+        top: -160px;
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-button {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #313131; /* Белый цвет круга */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.next-button:hover {
+    opacity: 0.8;
+}
+.prev-button {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #313131; /* Белый цвет круга */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.prev-button:hover {
+    opacity: 0.8;
+}
+
+.page-indicator {
+    font-size: 16px;
+    color: #666;
+    padding: 20px;
+}
+
+.page-indicator span:first-child {
+    font-family: Golos Text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #313131;
+}
+
+.page-indicator span:last-child {
+    font-family: Golos Text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #313131;
+    opacity: 0.6;
+}
+
+.participants-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.participant-card {
+    width: calc(30% - 10px);
+    margin-bottom: 20px;
+    /* Стили для карточки участника */
+    text-align: center;
+}
+
+.participant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.participant-card h3 {
+    /* Стили для имени участника */
+    font-family: Golos Text;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    margin: 0;
+    margin-top: 28px;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+.participant-card p {
+    /* Стили для информации о чемпионстве */
+    font-family: Golos Text;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.participant-card button {
+    /* Стили для кнопки "Подробнее" */
+    width: Hug (113px)px;
+    height: Hug (35px)px;
+    padding: 12px;
+    border-radius: 62px;
+    border: 1px solid #3057A2;
+    color: #3057A2;
+    font-family: Golos Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.participant-card button:hover {
+    background-color: #3057A2;
+    color: #fff;
+}
+
+.participants-cards_slider-list {
+    display: none;
+}
+
+.participants-cards_slider-list.active {
+    display: block;
+}
+
+.participants-cards_slider-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 745px) {
+    .participants-cards_slider-mobile {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .participants-cards_slider {
+        display: none;
+    }
+
+    .participant-card {
+        display: none;
+    }
+
+    .participant-card.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .participants-cards_slider-mobile h2 {
+        display: inline-block;
+        margin-right: 10px;
+        font-family: Merriweather;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 64.8px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .participant-card.active {
+        width: 80%;
+    }
+}
+
+
+.transformation-stages-mobile-slide {
+    display: none;
+}
+
+.transformation-stages-mobile-slide.active {
+    display: block;
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+}
+
+.transformation-stages-mobile-slide.active .card {
+    height: 100%;
+    width: auto;
+    padding: 20px;
+}
+
+.transformation-stages-mobile-slide.active .card--one {
+    height: 40%;
+}
+.transformation-stages-mobile-slide.active .card--two {
+    height: 40%;
+}
+.transformation-stages-mobile-slide.active .card--three {
+    height: 100%;
+}
+.transformation-stages-mobile-slide.active .card--four {
+    height: 40%;
+}
+.transformation-stages-mobile-slide.active .card--five {
+    height: 40%;
+}
+
+.transformation-stages-mobile-slider {
+    position: relative;
+}
+
+@media screen and (max-width: 550px) {
+    .transformation-stages-mobile-slide.active {
+        height: 300px;
+    }
+
+    .transformation-stages-mobile-slide.active .card--one {
+        height: 36%;
+    }
+
+    .transformation-stages-mobile-slide.active .card--two{
+        height: 36%;
+    }
+}
+
+.page-circle {
+    font-size: 24px; /* Установите желаемый размер точек */
+}
+
+.page-circle span {
+    color: grey; /* Установите серый цвет для неактивных точек */
+    cursor: pointer; /* Установите курсор указателя для точек */
+    margin: 0 5px; /* Добавьте небольшие отступы между точками */
+}
+
+.page-circle span.active {
+    color: black; /* Установите черный цвет для активной точки */
+}
